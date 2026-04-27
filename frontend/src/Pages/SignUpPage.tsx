@@ -2,7 +2,7 @@ import { IconAnchor, IconArrowLeft, IconBriefcase2 } from "@tabler/icons-react"
 import SignUp from "../Components/SignUpLogin/SignUp"
 import Login from "../Components/SignUpLogin/Login";
 import { useLocation, useNavigate } from "react-router-dom";
-import { Button, LoadingOverlay } from "@mantine/core";
+import { Button } from "@mantine/core";
 
 const SignUpPage = () => {
     const location=useLocation();
